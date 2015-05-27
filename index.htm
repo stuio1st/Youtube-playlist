@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Youtube Playlist</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="container">
+        <div id="countrydivcontainer" style="position:relative"></div>
+        <div class="main-container">
+        <div class="video-container">
+            <ul class="mainyoutubelist thumb-pagination" style="padding:0;"></ul>
+        </div>
+    </div>
+    </div>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/youtube-video.js"></script>
+    <script language="javascript" type="text/javascript" src="js/youtube-video-min.js"></script>
+    <link href="css/simplepagination.css" rel="stylesheet" type="text/css" media="all" />
+    <script src="js/jquery.simplepagination.js" type="text/javascript"></script>
+    <style type="text/css" media="screen">
+        .container {
+            width: 760px;
+            margin: 0 auto;
+            position: relative;
+        }        
+        #countrydivcontainer {
+            width: 100%;
+            float: left; 
+        }
+    </style>
+    <script type="text/javascript">
+    $(function(){
+        playlistload("PLsR9vTIqv95d3tSPcD0cv4WZqA6YhKKJs");
+    })
+    </script>
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+
+</html>

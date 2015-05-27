@@ -1,0 +1,52 @@
+.main-container {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.video-container {
+    width: 92%;
+    overflow: hidden;
+    float: left;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: none;
+    position: relative;
+}
+
+.thumb-pagination {
+    position: relative;
+    left: 0;
+    top: 0;
+} 
+
+.thumb-pagination li {
+    float: left;
+    width: 120px;
+    list-style: none;
+}
+
+.main-container .prev,
+.main-container .next {
+    position: absolute;
+    top: 50px;
+    z-index: 99999;
+    width: 20px;
+    height: 34px;
+}
+
+.main-container .prev {
+    left: 0px;
+    background: url(../img/icons.png) no-repeat left top;
+    text-indent: -9999px;
+}
+
+.main-container .next {
+    right: 0;
+    text-align: left;
+    text-indent: -99999px;
+    background: url(../img/icons.png) no-repeat right top;
+}
+.deselect{
+opacity: .2;
+}
